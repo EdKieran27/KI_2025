@@ -4,7 +4,7 @@
 #' @param eemriot_dir The directory where EEMRIOT files are located.
 #' @param years A numeric vector of years (e.g., 2017:2023).
 #' @param output_dir The directory where the XLSX output will be saved.
-#' @return A list containing CBE, PBE, and percentage error for each year.
+#' This script returns an xlsx file containing CBE and PBE, economy level and sector level.
 #' @export
 calculate_cbe_pbe <- function(mriot_dir, eemriot_dir, years, output_dir) {
   library(tidyverse)
